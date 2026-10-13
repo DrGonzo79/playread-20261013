@@ -1,0 +1,53 @@
+[
+  {
+    "id": "starfall",
+    "title": "Starfall Courier",
+    "studio": "Northstar Arcade",
+    "engine": "Unity 6",
+    "stage": "Vertical slice",
+    "ask": "$900K publishing deal",
+    "dimensions": {"code": 28, "provenance": 18, "production": 31, "playability": 22, "commercial": 35},
+    "evidence": [
+      {"key": "code", "label": "Code health", "detail": "62% critical-path coverage; modular save and inventory systems.", "status": "pass"},
+      {"key": "provenance", "label": "Asset provenance", "detail": "All 184 third-party assets map to invoices or signed assignments.", "status": "pass"},
+      {"key": "production", "label": "Production plan", "detail": "18-month roadmap is staffed; console certification buffer is thin.", "status": "watch"},
+      {"key": "playability", "label": "Build stability", "detail": "0 crashes across 21 scripted sessions; two progression blockers remain.", "status": "watch"},
+      {"key": "commercial", "label": "Commercial case", "detail": "42K wishlists with comparable conversion assumptions documented.", "status": "pass"}
+    ],
+    "gaps": ["Console certification owner not named", "Localization quote is 90 days old"]
+  },
+  {
+    "id": "echoes",
+    "title": "Echoes of Bracken",
+    "studio": "Mosslight Games",
+    "engine": "Unreal 5.5",
+    "stage": "Playable prototype",
+    "ask": "$1.4M publishing deal",
+    "dimensions": {"code": 52, "provenance": 68, "production": 61, "playability": 44, "commercial": 46},
+    "evidence": [
+      {"key": "code", "label": "Code health", "detail": "Core combat is readable; build pipeline depends on one local machine.", "status": "watch"},
+      {"key": "provenance", "label": "Asset provenance", "detail": "31 concept assets lack source files; AI disclosure log is incomplete.", "status": "risk"},
+      {"key": "production", "label": "Production plan", "detail": "Two founders own every critical system and have 14 weeks of runway.", "status": "risk"},
+      {"key": "playability", "label": "Build stability", "detail": "One crash in 12 sessions; save migration has no recovery path.", "status": "watch"},
+      {"key": "commercial", "label": "Commercial case", "detail": "Festival demo performed well; retention sample is only 73 players.", "status": "watch"}
+    ],
+    "gaps": ["Missing contractor assignments", "No disaster-recovery build", "Hiring plan is unfunded"]
+  },
+  {
+    "id": "neon",
+    "title": "Neon Kennel",
+    "studio": "Soft Reset Labs",
+    "engine": "Unity 2022 LTS",
+    "stage": "Pitch demo",
+    "ask": "$650K publishing deal",
+    "dimensions": {"code": 81, "provenance": 77, "production": 84, "playability": 72, "commercial": 64},
+    "evidence": [
+      {"key": "code", "label": "Code health", "detail": "Single 9,200-line controller owns combat, UI, and persistence.", "status": "risk"},
+      {"key": "provenance", "label": "Asset provenance", "detail": "Training-data and contractor records are unavailable for key art.", "status": "risk"},
+      {"key": "production", "label": "Production plan", "detail": "Six-month ship date omits multiplayer backend and QA staffing.", "status": "risk"},
+      {"key": "playability", "label": "Build stability", "detail": "Four crashes and seven blockers across ten scripted sessions.", "status": "risk"},
+      {"key": "commercial", "label": "Commercial case", "detail": "No audience evidence beyond 1,300 trailer views.", "status": "watch"}
+    ],
+    "gaps": ["No repository history", "No rights ledger", "No multiplayer cost model", "No milestone acceptance criteria"]
+  }
+]
